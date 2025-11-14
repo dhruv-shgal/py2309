@@ -65,3 +65,11 @@ n = int(input())
 #     for ch in range(ord('A'), ord('A')+i): #ord() function gives ASCII value of character
 #         print(chr(ch),end="")
 #     print("")    
+
+# for i in range(n, 0, -1):
+#     for cp in range(ord('a'), ord('a') + i):
+#         print(chr(cp), end="")
+#     print()
+
+
+
