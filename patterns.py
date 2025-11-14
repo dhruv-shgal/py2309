@@ -60,3 +60,8 @@ n = int(input())
 #         print(count,end=" ")
 #         count+=1
 #     print("")
+
+for i in range(1,n+1):
+    for ch in range(ord('A'), ord('A')+i): #ord() function gives ASCII value of character
+        print(chr(ch),end="")
+    print("")    
