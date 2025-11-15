@@ -72,7 +72,7 @@ n = int(input())
 #     print()
 
 
-for i in range(0,n):
-    for cp in range(ord('a'), ord('a') + i):
-        print(chr(ord('a')), end="")
-    print()
+# for i in range(n):
+#     for cp in range(i+1):
+#         print(chr(ord('a')+i), end="")
+#     print()
