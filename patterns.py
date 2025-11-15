@@ -93,3 +93,8 @@ n = int(input())
 #     for j in range(n-i):
 #         print(end=" ")
 #     print("")      
+
+# for i in range(n):
+#     for ch in range(ord('E')-i,ord('E')+1): #ord() function gives ASCII value of character
+#         print(chr(ch),end="")
+#     print("") 
